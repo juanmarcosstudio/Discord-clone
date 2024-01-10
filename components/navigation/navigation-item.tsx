@@ -28,7 +28,7 @@ export const NavigationItem = ({
         <ActionTooltip
             side="right"
             align="center"
-            label="{name}"
+            label={name}
         >
             <button
                 onClick={onClick}
