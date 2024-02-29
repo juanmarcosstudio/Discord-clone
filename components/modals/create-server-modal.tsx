@@ -77,7 +77,7 @@ export const CreateServerModal = () => {
                         Customize your server
                     </DialogTitle>
                     <DialogDescription className="text-center text-zinc-500">
-                        Give your server a personality with a name and an image. You can always change it later.
+                        Give your server a personality with a name and an image.
                     </DialogDescription>
                 </DialogHeader>
                 <Form {...form}>
@@ -114,7 +114,7 @@ export const CreateServerModal = () => {
                                             <Input 
                                                disabled={isLoading}
                                                className="bg-zinc-300/50 border-0 focus-visible:ring-0 text-black focus-visible:ring-offset-0"
-                                               placeholder="Enter server name"
+                                               placeholder="Enter your server name"
                                                {...field}
                                             />
                                         </FormControl>
