@@ -49,7 +49,7 @@ export const DeleteMessageModal = () => {
             Delete Message
           </DialogTitle>
           <DialogDescription className="text-center text-zinc-500">
-            Are you sure you want to do this? <br />
+            Are you sure you want to do this?? <br />
             The message will be permanently deleted.
           </DialogDescription>
         </DialogHeader>
